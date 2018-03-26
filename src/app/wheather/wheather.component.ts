@@ -1,4 +1,5 @@
 import {Component, Input, OnInit} from '@angular/core';
+import { Wheather } from "../wheather";
 
 @Component({
   selector: 'app-wheather',
@@ -7,9 +8,7 @@ import {Component, Input, OnInit} from '@angular/core';
 })
 export class WheatherComponent implements OnInit {
 
-  @Input() wheather: object;
-
-  uuid: string;
+  @Input() wheather: Wheather;
 
   constructor() { }
 
