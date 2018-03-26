@@ -3,7 +3,7 @@ export class Town {
   city: string;
   postcode: string;
   latitude: string;
-  logitude: number;
+  longitude: number;
   weather: string;
 
   constructor(values: Object = {}) {

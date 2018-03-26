@@ -8,6 +8,8 @@ import { TownComponent } from './town/town.component';
 import { HttpModule } from '@angular/http';
 import { HttpClientModule } from '@angular/common/http';
 import { WheatherComponent } from './wheather/wheather.component';
+import { AgmCoreModule } from '@agm/core';
+import {environment} from '../environments/environment';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,10 @@ import { WheatherComponent } from './wheather/wheather.component';
   imports: [
     BrowserModule,
     HttpModule,
-    HttpClientModule
+    HttpClientModule,
+    AgmCoreModule.forRoot({
+      apiKey: environment.MAPS_API_KEY
+    })
   ],
   providers: [],
   bootstrap: [AppComponent]
