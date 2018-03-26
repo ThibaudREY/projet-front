@@ -10,13 +10,15 @@ import { HttpClientModule } from '@angular/common/http';
 import { WheatherComponent } from './wheather/wheather.component';
 import { AgmCoreModule } from '@agm/core';
 import {environment} from '../environments/environment';
+import { PreloaderDirective } from './preloader.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
     TownListComponent,
     TownComponent,
-    WheatherComponent
+    WheatherComponent,
+    PreloaderDirective
   ],
   imports: [
     BrowserModule,
