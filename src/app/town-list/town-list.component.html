@@ -1,0 +1,13 @@
+<div class="row">
+  <div class="col l3 m4 s12" *ngFor="let t of towns; let i = index;">
+    <div class="card blue-grey darken-1">
+      <div class="card-content white-text">
+        <span class="card-title truncate">{{t.city}}</span>
+        <app-wheather [wheather]="t.weather"></app-wheather>
+      </div>
+      <div class="card-action pink">
+
+      </div>
+    </div>
+  </div>
+</div>
