@@ -1,6 +1,8 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/800d3f8f3a6326d26aef/maintainability)](https://codeclimate.com/github/ThibaudREY/projet-front/maintainability)
 [![Build Status](https://travis-ci.org/ThibaudREY/projet-front.svg?branch=master)](https://travis-ci.org/ThibaudREY/projet-front)
 
+Thibaud REY
+
 # ProjetFront
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.3.
