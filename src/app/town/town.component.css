@@ -1,3 +1,7 @@
 .map {
   height: 35vh;
 }
+
+.mb0 {
+  margin-bottom: 0 !important;
+}

@@ -1,5 +1,5 @@
 export class Town {
-  id: string;
+  id: number;
   city: string;
   postcode: string;
   latitude: string;
