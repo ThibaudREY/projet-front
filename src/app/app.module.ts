@@ -1,7 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
-
+import { TimeAgoPipe } from 'time-ago-pipe';
 import { AppComponent } from './app.component';
 import { TownListComponent } from './town-list/town-list.component';
 import { TownComponent } from './town/town.component';
@@ -16,7 +15,8 @@ import {environment} from '../environments/environment';
     AppComponent,
     TownListComponent,
     TownComponent,
-    WheatherComponent
+    WheatherComponent,
+    TimeAgoPipe,
   ],
   imports: [
     BrowserModule,

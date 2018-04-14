@@ -5,7 +5,7 @@
       <app-wheather [wheather]="town.weather"></app-wheather>
       <div class="row mb0">
         <div class="col l6 m6 s6">
-          <h6>{{count}} Minutes ago</h6>
+          <h6>{{date | timeAgo}}</h6>
         </div>
         <div class="col l6 m6 s6">
           <a (click)="reloadWeather()" class="btn-floating btn-large waves-effect waves-light light-blue lighten-1"><i class="material-icons left">refresh</i></a>
