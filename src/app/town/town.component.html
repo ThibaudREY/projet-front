@@ -1,3 +1,13 @@
-<p>
-  town works!
-</p>
+<div class="col l4 m5 s12">
+  <div class="card blue-grey darken-1">
+    <div class="card-content white-text">
+      <span class="card-title truncate">{{town.city}}</span>
+      <app-wheather [wheather]="town.weather"></app-wheather>
+    </div>
+    <div class="card-action pink">
+      <agm-map class="map" [latitude]="town.latitude" [longitude]="town.longitude">
+        <agm-marker [latitude]="town.latitude" [longitude]="town.longitude"></agm-marker>
+      </agm-map>
+    </div>
+  </div>
+</div>
